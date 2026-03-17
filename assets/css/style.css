@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+  --primary-blue: #333CCF; /* WeWork Vibrant Blue */
+  --primary-blue-hover: #212891;
+  --text-primary: #000000;
+  --text-secondary: #666666;
+  --bg-white: #ffffff;
+  --bg-light-gray: #f7f7f7;
+  --border-light: #e5e5e5;
+  --font-heading: 'Merriweather', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --transition-fast: 0.2s ease;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background-color: var(--bg-white);
+  line-height: 1.5;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition-fast);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+/* Layout */
+.container {
+  width: 100%;
+  max-width: 1440px; /* Wider container for full bleed feel */
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  color: var(--bg-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-blue-hover);
+  color: var(--bg-white);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--text-primary);
+  border-color: var(--text-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-white);
+}
+
+/* Header & Navigation */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-white);
+  z-index: 1000;
+  border-bottom: 1px solid var(--border-light);
+  height: 72px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  max-width: 100%;
+}
+
+.logo {
+  font-family: var(--font-heading); /* Serif logo */
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: -1px;
+  color: var(--text-primary);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  padding: 0.5rem 0;
+}
+
+.nav-links a:hover {
+  color: var(--primary-blue);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.header-login {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.header-login:hover, .header-contact:hover {
+  text-decoration: underline;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+main {
+  margin-top: 72px;
+}
+
+/* Side Sticky Button (Rotate) */
+.sticky-book-tour {
+  position: fixed;
+  right: -55px; /* Adjust based on text length */
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  background-color: var(--bg-white);
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+  border-bottom: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  z-index: 999;
+  cursor: pointer;
+  transform-origin: bottom center;
+  transition: background-color 0.2s;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+.sticky-book-tour:hover {
+  background-color: var(--bg-light-gray);
+}
+
+/* General Modifiers */
+.text-center { text-align: center; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
+.mb-4 { margin-bottom: 4rem; }
+.mt-2 { margin-top: 2rem; }
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+  .header-right .header-contact, .header-right .header-login {
+    display: none;
+  }
+  .mobile-menu-btn {
+    display: block;
+  }
+  .header-container {
+    justify-content: space-between;
+  }
+  .main-nav {
+    flex-grow: 0;
+  }
+}
