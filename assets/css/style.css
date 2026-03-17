@@ -118,6 +118,112 @@ p {
   color: var(--bg-white);
 }
 
+/* Testimonials Section */
+.testimonials-section {
+    background-color: var(--bg-white); /* Keep outer background white for contrast with the rounded black section */
+}
+
+.testimonials-container-dark {
+    background-color: #000000;
+    border-radius: 24px;
+    padding: 6rem 2rem;
+    margin: 0 auto;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.testimonial-slider {
+    padding: 2rem 1rem 4rem;
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.05); /* Darker glassmorphism */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2.5rem;
+    height: 100%;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align all items inside card */
+    text-align: center;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.rating {
+    color: #FFD700;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    font-style: italic;
+    margin-bottom: 2.5rem;
+    flex-grow: 1;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column; /* Stacked for center alignment */
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.client-photo {
+    width: 70px; /* Small circular size as requested */
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 0.5rem;
+}
+
+.client-name {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.client-role {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+}
+
+/* Swiper Customize */
+.testimonial-slider .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+/* Section Header Dark */
+.section-header h2 {
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.section-header p {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Header & Navigation */
 .site-header {
   position: fixed;
