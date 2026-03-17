@@ -3,8 +3,8 @@
 <!-- Page Header -->
 <section style="background-color: var(--primary-blue); color: var(--bg-white); padding: 4rem 0;" class="fade-in-up">
     <div class="container" style="max-width: 800px; margin: 0;">
-        <h1 style="color: var(--bg-white); margin-bottom: 0.5rem; font-size: 3rem;">Workspace Solutions</h1>
-        <p style="color: rgba(255,255,255,0.9); font-size: 1.25rem;">Flexible spaces that grow with your business.</p>
+        <h1 style="color: var(--bg-white); margin-bottom: 0.5rem; font-size: 3rem;">Service Solutions</h1>
+        <p style="color: rgba(255,255,255,0.9); font-size: 1.25rem;">Flexible services that grow with your business.</p>
     </div>
 </section>
 

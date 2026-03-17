@@ -101,6 +101,36 @@
     </div>
 </section>
 
+<!-- Portfolio Preview -->
+<section class="section-padding">
+    <div class="container fade-in-up">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem;">
+            <h2>Our Latest Projects</h2>
+            <a href="portfolio.php" class="btn btn-outline">View All Portfolio</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Workspace" style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 1.5rem; background: var(--bg-white);">
+                    <h3 style="font-size: 1.25rem;">The Innovator Hub</h3>
+                </div>
+            </div>
+            <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                <img src="https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&w=800&q=80" alt="Workspace" style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 1.5rem; background: var(--bg-white);">
+                    <h3 style="font-size: 1.25rem;">Executive Suites</h3>
+                </div>
+            </div>
+            <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="Workspace" style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 1.5rem; background: var(--bg-white);">
+                    <h3 style="font-size: 1.25rem;">Collaborative Lounges</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Why Choose Us Accordion Section -->
 <section class="section-padding">
     <div class="container fade-in-up">

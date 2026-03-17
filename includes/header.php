@@ -31,17 +31,16 @@ function is_active($page) {
             <!-- Center Navigation -->
             <nav class="main-nav">
                 <ul class="nav-links">
+                    <li><a href="index.php" class="<?php is_active('index.php'); ?>">Home</a></li>
                     <li><a href="about.php" class="<?php is_active('about.php'); ?>">About us</a></li>
-                    <li><a href="locations.php" class="<?php is_active('locations.php'); ?>">Centres</a></li>
-                    <li><a href="services.php" class="<?php is_active('services.php'); ?>">Workspaces</a></li>
-                    <li><a href="enterprise.php" class="<?php is_active('enterprise.php'); ?>">Enterprise Solutions</a></li>
-                    <li><a href="events.php" class="<?php is_active('events.php'); ?>">Events</a></li>
+                    <li><a href="contact.php" class="<?php is_active('contact.php'); ?>">Contact us</a></li>
+                    <li><a href="portfolio.php" class="<?php is_active('portfolio.php'); ?>">Portfolio</a></li>
+                    <li><a href="services.php" class="<?php is_active('services.php'); ?>">Service</a></li>
                 </ul>
             </nav>
 
             <!-- Right Actions -->
             <div class="header-right">
-                <a href="tel:1800123777888" class="header-contact"><i class="fas fa-phone-alt" style="color: var(--primary-blue);"></i> 1800 123 777 888</a>
                 <a href="login.php" class="header-login">Log in</a>
                 <a href="contact.php" class="btn btn-primary">Get in touch</a>
             </div>

@@ -7,7 +7,6 @@
                 <div>
                      <a href="index.php" class="logo" style="margin-bottom: 1.5rem; display: block;">Workabitat</a>
                      <div style="margin-bottom: 2rem;">
-                         <p style="margin-bottom: 0.5rem; font-weight: 500; color: var(--text-primary);">Sales enquiries: <a href="tel:1800123777888" style="color: var(--primary-blue);">1800 123 777 888</a></p>
                          <p style="margin-bottom: 0.5rem; font-weight: 500; color: var(--text-primary);">Support: <a href="tel:1800123777999" style="color: var(--primary-blue);">1800 123 777 999</a></p>
                      </div>
                      
@@ -33,10 +32,9 @@
                     <div>
                         <h4 style="font-family: var(--font-body); font-size: 0.95rem; margin-bottom: 1.5rem; color: var(--text-primary);">Solutions</h4>
                         <ul style="list-style: none;">
-                            <li style="margin-bottom: 0.75rem;"><a href="services.php" style="color: var(--text-secondary); font-size: 0.9rem;">Workspaces</a></li>
-                            <li style="margin-bottom: 0.75rem;"><a href="enterprise.php" style="color: var(--text-secondary); font-size: 0.9rem;">Enterprise</a></li>
-                            <li style="margin-bottom: 0.75rem;"><a href="events.php" style="color: var(--text-secondary); font-size: 0.9rem;">Workabitat Events</a></li>
-                            <li style="margin-bottom: 0.75rem;"><a href="#" style="color: var(--text-secondary); font-size: 0.9rem;">All Access</a></li>
+                            <li style="margin-bottom: 0.75rem;"><a href="services.php" style="color: var(--text-secondary); font-size: 0.9rem;">Service</a></li>
+                            <li style="margin-bottom: 0.75rem;"><a href="portfolio.php" style="color: var(--text-secondary); font-size: 0.9rem;">Portfolio</a></li>
+                            <li style="margin-bottom: 0.75rem;"><a href="contact.php" style="color: var(--text-secondary); font-size: 0.9rem;">Contact us</a></li>
                         </ul>
                     </div>
                     <div>
