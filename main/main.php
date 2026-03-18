@@ -1094,6 +1094,15 @@
             .stat-item { border-right: none; }
             .section-header-row { flex-direction: column; align-items: flex-start; gap: 1rem; }
             .process-grid { grid-template-columns: 1fr; }
+
+            /* Services Mobile Adjustments */
+            .service-item { height: auto; padding: 1.2rem 0; }
+            .service-item-img { width: 80px; height: 80px; margin-right: 1rem; }
+            .service-item-text { padding: 0 1rem; }
+            .service-item-text h3 { font-size: 1.2rem; }
+            .service-item-text p { font-size: 0.8rem; }
+            .service-item-num { width: 40px; font-size: 0.7rem; }
+            .service-item-arrow { color: var(--gold); }
         }
     </style>
 </head>
