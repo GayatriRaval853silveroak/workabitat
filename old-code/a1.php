@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'workspace-website\includes\header.php'; ?>
 
     <!-- ─── HERO ─── -->
     <div class="hero-wrapper">
@@ -367,4 +367,4 @@
         }
     </script>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'workspace-website\includes\footer.php'; ?>
