@@ -10,7 +10,7 @@
         .amenity-detail-text h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; color: var(--black); margin-bottom: 0.5rem; }
         .amenity-detail-text p { font-size: 0.88rem; color: var(--mid-gray); line-height: 1.7; }
 
-        .wellness-strip { background: linear-gradient(135deg, var(--black) 0%, #1a1410 100%); padding: 6rem 5%; }
+        .wellness-strip { background: linear-gradient(135deg, var(--black) 0%, #061225 100%); padding: 6rem 5%; }
         .wellness-container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
         .wellness-text h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: #fff; margin-bottom: 1.2rem; line-height: 1.15; }
         .wellness-text p { color: rgba(255,255,255,0.6); font-size: 0.95rem; line-height: 1.9; margin-bottom: 1.5rem; }

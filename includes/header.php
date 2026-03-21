@@ -12,15 +12,15 @@
 
     <style>
         :root {
-            --black: #111010;
+            --black: #0B1E3C;
             --warm-white: #faf8f5;
             --cream: #f2ede6;
             --gold: #c9a96e;
             --gold-light: #e8d5b0;
-            --charcoal: #2c2825;
+            --charcoal: #162a4a;
             --mid-gray: #7a746d;
             --light-gray: #e8e3dc;
-            --blue-accent: #1a3a5c;
+            --blue-accent: #0B1E3C;
             --font-display: 'Cormorant Garamond', serif;
             --font-body: 'DM Sans', sans-serif;
             --font-accent: 'Playfair Display', serif;

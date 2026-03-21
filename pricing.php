@@ -53,7 +53,7 @@
         .addon-text .addon-price { font-family: var(--font-display); font-size: 1.1rem; color: var(--gold); margin-top: 0.4rem; }
 
         /* Enterprise Band */
-        .enterprise-band { background: linear-gradient(135deg, #111010, #1a1410); padding: 5rem 5%; text-align: center; }
+        .enterprise-band { background: linear-gradient(135deg, #0B1E3C, #061225); padding: 5rem 5%; text-align: center; }
         .enterprise-band h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: #fff; margin-bottom: 1rem; }
         .enterprise-band p { color: rgba(255,255,255,0.6); font-size: 0.95rem; max-width: 560px; margin: 0 auto 2.5rem; line-height: 1.8; }
         .enterprise-features { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; }
