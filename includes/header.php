@@ -63,19 +63,20 @@
         }
 
         .header-logo {
-            font-family: var(--font-display);
-            font-size: 1.6rem;
-            font-weight: 600;
-            color: #fff;
             text-decoration: none;
-            letter-spacing: 1px;
-            transition: color 0.4s;
             display: flex;
             align-items: center;
-            gap: 0.4rem;
         }
 
-        .header-logo span { color: var(--gold); }
+        .header-logo img {
+            height: 138px;
+            width: auto;
+            transition: height 0.4s ease;
+        }
+
+        .site-header.scrolled .header-logo img {
+            height: 100px;
+        }
 
         .site-header.scrolled .header-logo { color: var(--black); }
 
@@ -1274,7 +1275,9 @@
 
     <!-- ─── HEADER ─── -->
     <header class="site-header" id="siteHeader">
-        <a href="index.php" class="header-logo">Work<span>Abitat</span></a>
+        <a href="index.php" class="header-logo">
+            <img src="images/workabitat-v2.png" alt="WorkAbitat Logo">
+        </a>
         <nav>
             <ul class="header-nav">
                 <li><a href="index.php">Home</a></li>
