@@ -25,7 +25,7 @@
         .office-types-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
         .office-type-card { background: #fff; border-radius: 20px; padding: 2.5rem 2rem; text-align: center; transition: all 0.3s ease; border: 1px solid var(--light-gray); }
         .office-type-card:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,0.1); border-color: var(--gold-light); }
-        .office-type-icon { width: 64px; height: 64px; background: linear-gradient(135deg, rgba(201,169,110,0.15), rgba(201,169,110,0.05)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; color: var(--gold); }
+        .office-type-icon { width: 64px; height: 64px; background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(59,130,246,0.05)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; color: var(--gold); }
         .office-type-card h3 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 400; color: var(--black); margin-bottom: 0.75rem; }
         .office-type-card p { font-size: 0.88rem; color: var(--mid-gray); line-height: 1.7; margin-bottom: 1.5rem; }
         .office-type-price { font-family: var(--font-display); font-size: 1.5rem; color: var(--gold); font-weight: 300; margin-bottom: 1.5rem; }

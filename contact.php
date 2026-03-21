@@ -2,8 +2,8 @@
 
     <style>
         .contact-main { background: var(--warm-white); padding: 8rem 5%; position: relative; overflow: hidden; }
-        .contact-main::before { content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(201,169,110,0.05) 0%, transparent 70%); z-index: 0; pointer-events: none; }
-        .contact-main::after { content: ''; position: absolute; bottom: -100px; left: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(201,169,110,0.05) 0%, transparent 70%); z-index: 0; pointer-events: none; }
+        .contact-main::before { content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(59,130,246,0.05) 0%, transparent 70%); z-index: 0; pointer-events: none; }
+        .contact-main::after { content: ''; position: absolute; bottom: -100px; left: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(59,130,246,0.05) 0%, transparent 70%); z-index: 0; pointer-events: none; }
         
         .contact-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; position: relative; z-index: 1; }
 
@@ -11,7 +11,7 @@
             background: #fff;
             border-radius: 30px;
             padding: 4rem 3.5rem;
-            border: 1px solid rgba(201,169,110,0.1);
+            border: 1px solid rgba(59,130,246,0.1);
             transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             position: relative;
             box-shadow: 0 10px 40px rgba(0,0,0,0.03);
@@ -19,7 +19,7 @@
         .contact-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 30px 60px rgba(0,0,0,0.08);
-            border-color: rgba(201,169,110,0.3);
+            border-color: rgba(59,130,246,0.3);
         }
 
         .contact-card h2 { font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 300; color: var(--black); margin-bottom: 1.5rem; line-height: 1.1; }
@@ -93,7 +93,7 @@
             content: '';
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(135deg, rgba(201,169,110,0.1) 0%, transparent 100%);
+            background: linear-gradient(135deg, rgba(59,130,246,0.1) 0%, transparent 100%);
             z-index: -1;
         }
         .general-enquiry-banner h3 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 300; margin-bottom: 1.5rem; }
@@ -118,7 +118,7 @@
             background: #fff; 
             border-radius: 24px; 
             padding: 4rem 2.5rem; 
-            border: 1px solid rgba(201,169,110,0.1); 
+            border: 1px solid rgba(59,130,246,0.1); 
             transition: all 0.4s ease;
             display: flex;
             flex-direction: column;

@@ -13,10 +13,10 @@
     <style>
         :root {
             --black: #0B1E3C;
-            --warm-white: #faf8f5;
-            --cream: #f2ede6;
-            --gold: #c9a96e;
-            --gold-light: #e8d5b0;
+            --warm-white: #f0f7ff;
+            --cream: #e0efff;
+            --gold: #3b82f6;
+            --gold-light: #93c5fd;
             --charcoal: #162a4a;
             --mid-gray: #7a746d;
             --light-gray: #e8e3dc;
@@ -56,7 +56,7 @@
         }
 
         .site-header.scrolled {
-            background: rgba(250, 248, 245, 0.96);
+            background: rgba(240, 247, 255, 0.96);
             backdrop-filter: blur(12px);
             box-shadow: 0 1px 0 rgba(0,0,0,0.08);
             height: 68px;
@@ -691,15 +691,15 @@
         }
 
         .amenity-item:hover {
-            background: rgba(201,169,110,0.1);
-            border-color: rgba(201,169,110,0.3);
+            background: rgba(59,130,246,0.1);
+            border-color: rgba(59,130,246,0.3);
             transform: translateY(-4px);
         }
 
         .amenity-icon {
             width: 54px;
             height: 54px;
-            background: rgba(201,169,110,0.15);
+            background: rgba(59,130,246,0.15);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -1067,7 +1067,7 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, rgba(201,169,110,0.12) 0%, transparent 60%);
+            background: linear-gradient(135deg, rgba(59,130,246,0.12) 0%, transparent 60%);
         }
 
         .page-hero .section-label { display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
@@ -1213,7 +1213,7 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color: var(--gold);
-            box-shadow: 0 0 0 3px rgba(201,169,110,0.15);
+            box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
         }
 
         .form-group textarea { min-height: 130px; resize: vertical; }

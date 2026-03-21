@@ -5,7 +5,7 @@
         .about-story-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; margin-bottom: 6rem; }
         .about-story-image { position: relative; }
         .about-story-image img { border-radius: 20px; width: 100%; height: 520px; object-fit: cover; }
-        .about-story-badge { position: absolute; bottom: -2rem; right: -2rem; background: var(--gold); color: #fff; padding: 1.5rem 2rem; border-radius: 16px; text-align: center; box-shadow: 0 12px 40px rgba(201,169,110,0.4); }
+        .about-story-badge { position: absolute; bottom: -2rem; right: -2rem; background: var(--gold); color: #fff; padding: 1.5rem 2rem; border-radius: 16px; text-align: center; box-shadow: 0 12px 40px rgba(59,130,246,0.4); }
         .about-story-badge .badge-num { font-family: var(--font-display); font-size: 2.5rem; font-weight: 300; line-height: 1; }
         .about-story-badge .badge-label { font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.85; }
         .about-story-text h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: var(--black); margin-bottom: 1.5rem; line-height: 1.15; }
@@ -18,7 +18,7 @@
         .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
         .value-card { background: #fff; border-radius: 20px; padding: 2.5rem 2rem; text-align: center; border: 1px solid var(--light-gray); transition: all 0.3s ease; }
         .value-card:hover { border-color: var(--gold-light); transform: translateY(-6px); box-shadow: 0 16px 50px rgba(0,0,0,0.09); }
-        .value-icon { width: 64px; height: 64px; background: linear-gradient(135deg, rgba(201,169,110,0.18), rgba(201,169,110,0.04)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; color: var(--gold); }
+        .value-icon { width: 64px; height: 64px; background: linear-gradient(135deg, rgba(59,130,246,0.18), rgba(59,130,246,0.04)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; color: var(--gold); }
         .value-card h3 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 400; color: var(--black); margin-bottom: 0.75rem; }
         .value-card p { font-size: 0.88rem; color: var(--mid-gray); line-height: 1.7; }
 
@@ -77,12 +77,12 @@
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
                 <div style="background:var(--cream);border-radius:20px;padding:2.5rem">
-                    <div style="width:48px;height:48px;background:rgba(201,169,110,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;color:var(--gold);font-size:1.2rem"><i class="fas fa-bullseye"></i></div>
+                    <div style="width:48px;height:48px;background:rgba(59,130,246,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;color:var(--gold);font-size:1.2rem"><i class="fas fa-bullseye"></i></div>
                     <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:400;color:var(--black);margin-bottom:0.75rem">Our Mission</h3>
                     <p style="color:var(--mid-gray);font-size:0.92rem;line-height:1.8">To deliver hospitality-driven co-working spaces where service, comfort, and community fuel business growth — transforming how teams experience their workplace every single day.</p>
                 </div>
                 <div style="background:var(--black);border-radius:20px;padding:2.5rem">
-                    <div style="width:48px;height:48px;background:rgba(201,169,110,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;color:var(--gold);font-size:1.2rem"><i class="fas fa-eye"></i></div>
+                    <div style="width:48px;height:48px;background:rgba(59,130,246,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;color:var(--gold);font-size:1.2rem"><i class="fas fa-eye"></i></div>
                     <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:400;color:#fff;margin-bottom:0.75rem">Our Vision</h3>
                     <p style="color:rgba(255,255,255,0.5);font-size:0.92rem;line-height:1.8">To become India's most trusted co-working partner for startups and enterprises — known for excellence, flexibility, and a workspace experience that genuinely elevates the people who use it.</p>
                 </div>

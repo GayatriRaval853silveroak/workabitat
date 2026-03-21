@@ -6,7 +6,7 @@
         .amenities-detail-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem; margin-bottom: 6rem; }
         .amenity-detail-card { display: flex; gap: 1.5rem; padding: 2.5rem; background: #fff; border-radius: 20px; border: 1px solid var(--light-gray); transition: all 0.3s ease; }
         .amenity-detail-card:hover { border-color: var(--gold-light); box-shadow: 0 12px 40px rgba(0,0,0,0.08); transform: translateY(-4px); }
-        .amenity-detail-icon { width: 56px; height: 56px; background: linear-gradient(135deg, rgba(201,169,110,0.2), rgba(201,169,110,0.05)); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--gold); flex-shrink: 0; }
+        .amenity-detail-icon { width: 56px; height: 56px; background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(59,130,246,0.05)); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--gold); flex-shrink: 0; }
         .amenity-detail-text h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; color: var(--black); margin-bottom: 0.5rem; }
         .amenity-detail-text p { font-size: 0.88rem; color: var(--mid-gray); line-height: 1.7; }
 
@@ -16,7 +16,7 @@
         .wellness-text p { color: rgba(255,255,255,0.6); font-size: 0.95rem; line-height: 1.9; margin-bottom: 1.5rem; }
         .wellness-points { display: flex; flex-direction: column; gap: 1rem; }
         .wellness-point { display: flex; align-items: flex-start; gap: 1rem; }
-        .wellness-point-icon { width: 42px; height: 42px; background: rgba(201,169,110,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1rem; flex-shrink: 0; }
+        .wellness-point-icon { width: 42px; height: 42px; background: rgba(59,130,246,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1rem; flex-shrink: 0; }
         .wellness-point-text h4 { font-size: 0.95rem; color: #fff; font-weight: 500; margin-bottom: 0.25rem; }
         .wellness-point-text p { font-size: 0.83rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
         .wellness-image { border-radius: 20px; overflow: hidden; height: 480px; }

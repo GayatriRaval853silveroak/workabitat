@@ -47,7 +47,7 @@
         .addons-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
         .addon-card { background: #fff; border-radius: 16px; padding: 2rem; border: 1px solid var(--light-gray); display: flex; align-items: flex-start; gap: 1.25rem; transition: all 0.3s; }
         .addon-card:hover { border-color: var(--gold-light); box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
-        .addon-icon { width: 48px; height: 48px; background: rgba(201,169,110,0.12); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1.2rem; flex-shrink: 0; }
+        .addon-icon { width: 48px; height: 48px; background: rgba(59, 130, 246,0.12); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1.2rem; flex-shrink: 0; }
         .addon-text h4 { font-size: 0.95rem; font-weight: 600; color: var(--black); margin-bottom: 0.3rem; }
         .addon-text p { font-size: 0.82rem; color: var(--mid-gray); line-height: 1.6; }
         .addon-text .addon-price { font-family: var(--font-display); font-size: 1.1rem; color: var(--gold); margin-top: 0.4rem; }
